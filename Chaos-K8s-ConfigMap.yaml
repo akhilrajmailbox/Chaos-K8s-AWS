@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: chaos-k8s-cm
+data:
+  CHAOS_NAMESPACE: "namespace1 namespace2 namespace3"
+  CLUSTER_NAME: "aws-cluster"
+  CLUSTER_REGION: "us-east-1"
